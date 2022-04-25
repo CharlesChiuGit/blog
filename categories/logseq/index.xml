@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>logseq on Charles Chiu</title><link>https://charleschiugit.github.io/categories/logseq/</link><description>Recent content in logseq on Charles Chiu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://charleschiugit.github.io/categories/logseq/index.xml" rel="self" type="application/rss+xml"/><item><title>Logseq/Tips</title><link>https://charleschiugit.github.io/page/logseq/tips/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://charleschiugit.github.io/page/logseq/tips/</guid><description>Illustration of Logseq&amp;rsquo;s implemented task states:
+Discoed Link Vault survival kit
+Discord Link Save a current safari selection to Logseq as a quote and link
+Discord Link
+iCloud shortcut
+While querying a page that uses namespace, replace the slash with underscore. So if the page name is projects/2022, in advanced query it should be &amp;ldquo;projects_2022&amp;rdquo;
+A new shortcut using @sawhneys shortcut as reference to add dictated text as a note to logseq (today) with a tag #voicenote</description></item></channel></rss>
