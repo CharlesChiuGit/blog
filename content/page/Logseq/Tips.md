@@ -3,7 +3,8 @@ alias:
   - logseq_tip
 title: Logseq/Tips
 tags:
-categories:
+  - logseq
+categories: logseq
 date: 2022-04-08
 lastMod: 2022-04-25
 ---
@@ -12,7 +13,7 @@ Illustration of Logseq's implemented task states:
 
 - [Discoed Link](https://discord.com/channels/725182569297215569/725182570131751005/952564162792402976)
 
-![logseq_implemented_task_states](https://raw.githubusercontent.com/charleschiu2012/image-hosting/main/img/logseq_implemented_task_states.png)
+![logseq_implemented_task_states](https://raw.githubusercontent.com/charleschiu2012/image-hosting/main/img/Logseq_implemented_task_states.png)
 
 ---
 
@@ -20,7 +21,7 @@ Vault survival kit
 
 - [Discord Link](https://discord.com/channels/725182569297215569/756886540038438992/952605818791030866)
 
-![pkm_vault_survival_kit](https://raw.githubusercontent.com/charleschiu2012/image-hosting/main/img/pkm_vault_survival_kit.png)
+![pkm_vault_survival_kit](https://raw.githubusercontent.com/charleschiu2012/image-hosting/main/img/PKM_Vault_survival_kit.png)
 
 ---
 
@@ -40,7 +41,7 @@ A new shortcut using @sawhneys shortcut as reference to add dictated text as a n
 
 - [Discord Link](https://discord.com/channels/725182569297215569/924907384730689566/956086408819392523)
 
-- https://www.icloud.com/shortcuts/da2d44bf4e9e4f17a92bec5472cc8384
+- [iCloud shortcut](https://www.icloud.com/shortcuts/da2d44bf4e9e4f17a92bec5472cc8384)
 
 ---
 
@@ -107,7 +108,7 @@ How do you pronounce Logseq?
 
 - [Discord Link](https://discord.com/channels/725182569297215569/756886540038438992/957664768553001050)
 
-- ![howtopronouncelogseq](https://raw.githubusercontent.com/charleschiugit/image-hosting/main/img/howtopronouncelogseq.png)
+- ![howtopronouncelogseq](https://raw.githubusercontent.com/charleschiugit/image-hosting/main/img/HowToPronounceLogseq.png)
 
 ---
 
@@ -149,9 +150,9 @@ Logseq URL Protocol overview.
 
 - demo: #.v-gallery-col2
 
-- ![logseq%20url%20protocol%20overview](https://raw.githubusercontent.com/charleschiugit/image-hosting/main/img/logseq%20url%20protocol%20overview.png)
+- ![logseq%20url%20protocol%20overview](https://raw.githubusercontent.com/charleschiugit/image-hosting/main/img/Logseq%20URL%20Protocol%20overview.png)
 
-- ![logseq%20url%20protocol%20breakdown](https://raw.githubusercontent.com/charleschiugit/image-hosting/main/img/logseq%20url%20protocol%20breakdown.png)
+- ![logseq%20url%20protocol%20breakdown](https://raw.githubusercontent.com/charleschiugit/image-hosting/main/img/Logseq%20URL%20Protocol%20breakdown.png)
 
 ---
 

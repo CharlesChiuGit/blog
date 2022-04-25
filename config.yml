@@ -1,12 +1,12 @@
 baseURL: https://charleschiugit.github.io
 languageCode: en-us
 title: Charles Chiu
-theme: "hello-friend-ng"
+theme: "PaperMod"
 
 params:
   homeInfoParams:
     Title: Sup bruh 😎
-    Content: This is something shows in your homepage.
+    Content: HipHop enthusiast, PKM leaner and Machine Learning amateur.
 
   socialIcons: # optional
     - name: "github"
