@@ -9,10 +9,9 @@ Discord Link :commands [ [“!=“ “≠”] ] A funny experiment to turn block
 {{youtube-timestamp 224}} mottos about tools#mottos
 Logseq mottos #mottos #logseq_tip #.v-border-children</description></item><item><title>Logseq/Queries</title><link>https://charleschiugit.github.io/page/logseq/queries/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://charleschiugit.github.io/page/logseq/queries/</guid><description>from @Jeddychan in Logseq&amp;rsquo;s discord #.v-border-children
 Terms / Names - Datalog &amp;mdash;&amp;mdash; a query language used for databases Datascript &amp;mdash; a flavor of Datalog written in Clojure. Logseq currently uses Datascript. Datomic &amp;mdash;&amp;ndash; a different flavor of Datalog written in Clojure. (Some tutorials for Datomic may be helpful, but ymmv) Hiccup &amp;mdash;&amp;mdash;- a language used to generate HTML, you can use it in an advanced query&amp;rsquo;s custom view ( :view )</description></item><item><title>Logseq/Tips</title><link>https://charleschiugit.github.io/page/logseq/tips/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://charleschiugit.github.io/page/logseq/tips/</guid><description>Illustration of Logseq&amp;rsquo;s implemented task states:
-Discoed Link
-Vault survival kit
-Discord Link
-Save a current safari selection to Logseq as a quote and link
+Discoed Link Vault survival kit
+Discord Link Save a current safari selection to Logseq as a quote and link
 Discord Link
 iCloud shortcut
-While querying a page that uses namespace, replace the slash with underscore. So if the page name is projects/2022, in advanced query it should be &amp;ldquo;projects_2022&amp;rdquo;</description></item></channel></rss>
+While querying a page that uses namespace, replace the slash with underscore. So if the page name is projects/2022, in advanced query it should be &amp;ldquo;projects_2022&amp;rdquo;
+A new shortcut using @sawhneys shortcut as reference to add dictated text as a note to logseq (today) with a tag #voicenote</description></item></channel></rss>
