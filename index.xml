@@ -9,9 +9,11 @@ Discord Link :commands [ [“!=“ “≠”] ] A funny experiment to turn block
 {{youtube-timestamp 224}} mottos about tools#mottos
 Logseq mottos #mottos #logseq_tip #.v-border-children</description></item><item><title>Logseq/Queries</title><link>https://charleschiugit.github.io/page/logseq/queries/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://charleschiugit.github.io/page/logseq/queries/</guid><description>from @Jeddychan in Logseq&amp;rsquo;s discord #.v-border-children
 Terms / Names - Datalog &amp;mdash;&amp;mdash; a query language used for databases Datascript &amp;mdash; a flavor of Datalog written in Clojure. Logseq currently uses Datascript. Datomic &amp;mdash;&amp;ndash; a different flavor of Datalog written in Clojure. (Some tutorials for Datomic may be helpful, but ymmv) Hiccup &amp;mdash;&amp;mdash;- a language used to generate HTML, you can use it in an advanced query&amp;rsquo;s custom view ( :view )</description></item><item><title>Logseq/Tips</title><link>https://charleschiugit.github.io/page/logseq/tips/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://charleschiugit.github.io/page/logseq/tips/</guid><description>Illustration of Logseq&amp;rsquo;s implemented task states:
-Discoed Link {:height 290, :width 1216}
+Discoed Link
+{:height 290, :width 1216}
 Vault survival kit
-Discord Link {:height 866, :width 1168}
+Discord Link
+{:height 866, :width 1168}
 Save a current safari selection to Logseq as a quote and link
 Discord Link
 https://www.icloud.com/shortcuts/a5fb574078e2494da34fd4c468d9c1ef
