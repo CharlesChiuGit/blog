@@ -66,7 +66,7 @@ from @Avijeet in Logseq's discord #.v-border-children
 
 - Hi, I have compiled a list of advanced queries and references from this channel, which I was able to execute for my database (still need to add those from the last few weeks). Thought it might be useful to those looking for advanced queries examples. Link to the original discord message and dates are also included for context 🙂.
 
-- [Logseq/Advanced_queries_Examples]({{< relref "/content/pages/Logseq/Advanced_queries_Examples" >}})
+- [Logseq/Advanced_queries_Examples]({{< ref "/pages/Logseq/Advanced_queries_Examples" >}})
 
 from @cldwalker in Logseq's discord #.v-border-children
 
