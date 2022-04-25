@@ -12,7 +12,7 @@ Illustration of Logseq's implemented task states:
 
 - [Discoed Link](https://discord.com/channels/725182569297215569/725182570131751005/952564162792402976)
 
-- ![logseq_implemented_task_states](https://raw.githubusercontent.com/charleschiu2012/image-hosting/main/img/logseq_implemented_task_states.png){:height 290, :width 1216}
+- ![logseq_implemented_task_states](https://raw.githubusercontent.com/charleschiu2012/image-hosting/main/img/logseq_implemented_task_states.png)
 
 ---
 
@@ -20,7 +20,7 @@ Vault survival kit
 
 - [Discord Link](https://discord.com/channels/725182569297215569/756886540038438992/952605818791030866)
 
-- ![pkm_vault_survival_kit](https://raw.githubusercontent.com/charleschiu2012/image-hosting/main/img/pkm_vault_survival_kit.png){:height 866, :width 1168}
+- ![pkm_vault_survival_kit](https://raw.githubusercontent.com/charleschiu2012/image-hosting/main/img/pkm_vault_survival_kit.png)
 
 ---
 
@@ -28,7 +28,7 @@ Save a current safari selection to Logseq as a quote and link
 
 - [Discord Link](https://discord.com/channels/725182569297215569/924907384730689566/955548362139119706)
 
-- https://www.icloud.com/shortcuts/a5fb574078e2494da34fd4c468d9c1ef
+- [iCloud shortcut](https://www.icloud.com/shortcuts/a5fb574078e2494da34fd4c468d9c1ef)
 
 ---
 
