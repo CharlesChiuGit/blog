@@ -1,5 +1,4 @@
 ---
-public: true
 title: Logseq/CSS_Theme
 tags:
 categories:

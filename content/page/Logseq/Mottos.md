@@ -1,7 +1,6 @@
 ---
 alias:
 - mottos
-public: true
 title: Logseq/Mottos
 tags:
 categories:

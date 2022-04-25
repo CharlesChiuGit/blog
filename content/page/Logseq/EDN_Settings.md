@@ -1,6 +1,5 @@
 ---
 title: Logseq/EDN_Settings
-public: true
 tags:
 categories:
 date: 2022-04-08
