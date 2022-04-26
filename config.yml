@@ -2,23 +2,28 @@ baseURL: https://charleschiugit.github.io
 languageCode: en-us
 title: Charles Chiu
 theme: "PaperMod"
+paginate: 3
+author:
+  name: "Charles Chiu"
+  url: "https://github.com/CharlesChiuGit"
+  avatar: "charliie_unicorn.png"
 
 params:
   homeInfoParams:
     Title: Sup bruh 😎
-    Content: HipHop enthusiast, PKM leaner and Machine Learning amateur.
+    Content: HipHop enthusiast, PKM leaner, Machine Learning amateur and  Coffee addict.
 
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/CharlesChiuGit"
-    # - name: "youtube"
-    #   url: "https://www.youtube.com/channel/UCjMJeOCEAG2XFtd9JvZwomw"
+    - name: "youtube"
+      url: "https://www.youtube.com/channel/UCn1_M9mn14YZvBVgChbsYlA"
     - name: "twitter"
       url: "https://twitter.com/charlie_chiu_"
-    # - name: "kofi"
-    #   url: "https://buymeacoffee.com/sawhney17"
-    # - name: "rss"
-    #   url: "https://aryansawhney.com/index.xml"
+    - name: "kofi"
+      url: "https://buymeacoffee.com/charleschiu"
+    - name: "rss"
+      url: "https://charleschiugit.github.io/index.xml"
   ShowReadingTime: true
   author: "Charles Chiu"
   contact: "charleschiu2012@gmail.com"
@@ -27,6 +32,9 @@ params:
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   mobileMenu: true
   canonifyURLs: true
+  favicon: "unicorn.ico"
+  icon: "unicorn.ico"
+  image: "unicorn.ico"
 
 outputs:
   home:
