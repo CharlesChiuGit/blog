@@ -1,5 +1,7 @@
 baseURL: https://charleschiugit.github.io
-languageCode: en-us
+languageCode:
+  - en-us
+  - zh-TW
 title: Charles Chiu
 theme: "PaperMod"
 paginate: 3
