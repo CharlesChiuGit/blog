@@ -5,7 +5,7 @@
     {{- else }}
     <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
     {{- end }}
-    <!-- <br> -->
+    <br>
     <!-- <span> -->
     <!--     Powered by -->
     <!--     <!-- <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>  --> -->
@@ -17,10 +17,10 @@
     {{ if .Site.Params.busuanzi.enable -}}
     <div class="busuanzi-footer">
     <span id="busuanzi_container_site_pv">
-        Total Visits<span id="busuanzi_value_site_pv"></span>
+        Total Visits: <span id="busuanzi_value_site_pv"></span>
     </span>
     <span id="busuanzi_container_site_uv">
-        Recent Visits<span id="busuanzi_value_site_uv"></span>
+        Total Visitors: <span id="busuanzi_value_site_uv"></span>
     </span>
     </div>
     {{- end}}
