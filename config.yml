@@ -41,6 +41,8 @@ params:
   favicon: "favicon.ico"
   icon: "unicorn.ico"
   image: "unicorn.ico"
+  busuanzi:
+    enable: true
 
 outputs:
   home:

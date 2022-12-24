@@ -6,12 +6,22 @@
     <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
     {{- end }}
     <br>
-    <span>
-        Powered by
-        <!-- <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>  -->
-        <!-- & <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>  via -->
-       <a href="https://github.com/sawhney17/logseq-schrodinger" rel="noopener" target="_blank">Logseq Schrödinger</a>
+
+    <!--     Powered by -->
+    <!--     <!-- <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a>  --> -->
+    <!--     <!-- & <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>  via --> -->
+    <!--    <a href="https://github.com/sawhney17/logseq-schrodinger" rel="noopener" target="_blank">Logseq Schrödinger</a> -->
+    <!-- </span>
+    <!-- busuanzi --> -->
+    {{ if .Site.Params.busuanzi.enable -}}
+    <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv">
+        Total Visits<span id="busuanzi_value_site_pv"></span>次
     </span>
+    <span id="busuanzi_container_site_uv">
+        Recent Visits<span id="busuanzi_value_site_uv"></span>人次
+    </span>
+    </div>
 </footer>
 {{- end }}
 
