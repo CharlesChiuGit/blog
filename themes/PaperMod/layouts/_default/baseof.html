@@ -3,6 +3,9 @@
 
 <head>
     {{- partial "head.html" . }}
+    {{ if .Site.Params.GoogleAnalyticsID }}
+        {{ partial "analytics-gtag.html" . }}
+    {{ end }}
 </head>
 
 <body class="
