@@ -3,10 +3,11 @@
 
 <head>
     {{- partial "head.html" . }}
-    {{ if .Site.Params.GoogleAnalyticsID }}
-        {{ partial "analytics-gtag.html" . }}
-    {{ end }}
 </head>
+
+{{ if .Site.Params.GoogleAnalyticsID }}
+    {{ partial "analytics-gtag.html" . }}
+{{ end }}
 
 <body class="
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
