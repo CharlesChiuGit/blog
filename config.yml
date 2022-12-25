@@ -48,7 +48,7 @@ params:
   icon: "unicorn.ico"
   image: "unicorn.ico"
   busuanzi:
-    enable: false
+    enable: true
 
 outputs:
   home:
