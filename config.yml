@@ -15,7 +15,7 @@ params:
   googleAnalyticsID: "G-0V9B3X3CHE"
   googleAnalytics: "G-0V9B3X3CHE"
   sitemap:
-    changefreq: monthly
+    changefreq: hourly
     filename: sitemap.xml
     priority: 0.5
   homeInfoParams:
