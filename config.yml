@@ -43,8 +43,7 @@ params:
   image: "unicorn.ico"
   busuanzi:
     enable: true
-
-googleAnalytics: G-0V9B3X3CHE
+  googleAnalytics: "G-0V9B3X3CHE"
 
 outputs:
   home:
