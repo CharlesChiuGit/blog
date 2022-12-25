@@ -11,6 +11,7 @@ author:
   avatar: "charliie_unicorn.png"
 
 params:
+  env: production
   googleAnalyticsID: "G-0V9B3X3CHE"
   homeInfoParams:
     Title: Sup bruh 😎
