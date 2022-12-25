@@ -12,7 +12,6 @@ author:
 
 params:
   env: production
-  googleAnalyticsID: "G-0V9B3X3CHE"
   googleAnalytics: "G-0V9B3X3CHE"
   sitemap:
     changefreq: hourly
