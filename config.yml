@@ -19,7 +19,7 @@ params:
     priority: 0.5
   homeInfoParams:
     Title: Sup bruh 😎
-    Content: HipHop enthusiast, PKM leaner, Machine Learning amateur and  Coffee addict.
+    Content: HipHop enthusiast, PKM learner and  Coffee addict.
 
   socialIcons: # optional
     - name: "github"
