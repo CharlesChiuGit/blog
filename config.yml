@@ -25,7 +25,7 @@ params:
     - name: "youtube"
       url: "https://www.youtube.com/channel/UCn1_M9mn14YZvBVgChbsYlA"
     - name: "twitter"
-      url: "https://twitter.com/charlie_chiu_"
+      url: "https://twitter.com/charliie_dev"
     # - name: "medium"
     #   url: "https://medium.com/@charlie_chiu_"
     # - name: "matters"
@@ -33,10 +33,10 @@ params:
     - name: "kofi"
       url: "https://buymeacoffee.com/charleschiu"
     - name: "rss"
-      url: "https://charleschiugit.github.io/index.xml"
+      url: "https://blog.charliie.dev/index.xml"
   ShowReadingTime: true
   author: "Charles Chiu"
-  contact: "charleschiu2012@gmail.com"
+  contact: "mail@charliie.dev"
   feedlinks: true
   footer: "Powered by [Hugo](https://gohugo.io/) and the [Logseq](https://logseq.com/)."
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
