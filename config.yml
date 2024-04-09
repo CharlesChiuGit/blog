@@ -15,9 +15,26 @@ params:
     changefreq: hourly
     filename: sitemap.xml
     priority: 0.5
-  homeInfoParams:
-    Title: Sup bruh 😎
-    Content: HipHop enthusiast, PKM learner and  Coffee addict.
+  # homeInfoParams:
+  #   Title: Sup bruh 😎
+  #   Content: HipHop enthusiast, PKM learner and  Coffee addict.
+
+  profileMode:
+    enabled: true
+    title: "Sup bruh 😎"
+    subtitle: "HipHop enthusiast, PKM learner and  Coffee addict."
+    imageUrl: "https://img.charliie.dev/unicorn.png"
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Categories
+        url: "/categories"
+      - name: Tags
+        url: "/tags"
+      - name: Search
+        url: "/search/"
 
   socialIcons: # optional
     - name: "github"
