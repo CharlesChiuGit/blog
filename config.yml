@@ -33,8 +33,8 @@ params:
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/CharlesChiuGit"
-    - name: "youtube"
-      url: "https://www.youtube.com/channel/UCn1_M9mn14YZvBVgChbsYlA"
+    # - name: "youtube"
+    #   url: "https://www.youtube.com/channel/UCn1_M9mn14YZvBVgChbsYlA"
     - name: "twitter"
       url: "https://twitter.com/charliie_dev"
     # - name: "medium"
@@ -43,6 +43,8 @@ params:
     #   url: "https://matters.news/@charliie"
     - name: "kofi"
       url: "https://buymeacoffee.com/charleschiu"
+    - name: "email"
+      url: "mailto:mail@charliie.dev"
     - name: "rss"
       url: "https://blog.charliie.dev/index.xml"
   ShowReadingTime: true
