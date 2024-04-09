@@ -24,15 +24,9 @@ params:
     title: "Sup bruh 😎"
     subtitle: "HipHop enthusiast, PKM learner and  Coffee addict."
     imageUrl: "https://img.charliie.dev/unicorn.png"
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
     buttons:
-      - name: Archive
-        url: "/archive"
-      - name: Categories
-        url: "/categories"
-      - name: Tags
-        url: "/tags"
       - name: Search
         url: "/search/"
 
