@@ -6,7 +6,7 @@ paginate: 3
 author:
   name: "Charles Chiu"
   url: "https://github.com/CharlesChiuGit"
-  avatar: "unicorn.png"
+  avatar: "unicorn72x72.png"
 
 enableRobotsTXT: true
 googleAnalytics: "G-0YYDW2B6FM"
@@ -25,7 +25,7 @@ params:
     enabled: true
     title: "Sup bruh 😎"
     subtitle: "HipHop enthusiast, PKM learner and  Coffee addict."
-    imageUrl: "https://img.charliie.dev/unicorn.png"
+    imageUrl: "unicorn240x240.png"
     imageWidth: 240 # custom size
     imageHeight: 240 # custom size
     buttons:
@@ -74,7 +74,7 @@ params:
   tocopen: true
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "favicon.ico"
     favicon16x16: "favicon.ico"
@@ -84,7 +84,7 @@ params:
 
   label:
     text: "Portal"
-    icon: "unicorn.png"
+    icon: "unicorn72x72.png"
     iconHeight: 35
 
 outputs:
