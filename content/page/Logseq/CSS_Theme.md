@@ -1,5 +1,5 @@
 ---
-title: Logseq/CSS_Theme
+title: \[Logseq\] CSS_Theme
 tags:
   - logseq
 categories: logseq

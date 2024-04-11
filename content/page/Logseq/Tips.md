@@ -1,7 +1,5 @@
 ---
-alias:
-  - logseq_tip
-title: Logseq/Tips
+title: \[Logseq\] Tips
 tags:
   - logseq
 categories: logseq

@@ -1,5 +1,5 @@
 ---
-title: Logseq/EDN_Settings
+title: \[Logseq\] EDN_Settings
 tags:
   - logseq
 categories: logseq
