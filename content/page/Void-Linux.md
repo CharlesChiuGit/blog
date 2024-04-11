@@ -4,7 +4,14 @@ tags:
 categories:
 date: 2022-12-03
 lastMod: 2022-12-04
+showtoc: true
+tocopen: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowCodeCopyButtons: true
 ---
+
 # Misc
 
 ## ACPI BIOS Error on startup
