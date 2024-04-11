@@ -6,7 +6,7 @@ paginate: 3
 author:
   name: "Charles Chiu"
   url: "https://github.com/CharlesChiuGit"
-  avatar: "charliie_unicorn.png"
+  avatar: "unicorn.png"
 
 enableRobotsTXT: true
 googleAnalytics: "G-0YYDW2B6FM"
@@ -83,8 +83,8 @@ params:
     safari_pinned_tab: "favicon.ico"
 
   label:
-    text: "Home"
-    icon: "charliie_unicorn.png"
+    text: "Portal"
+    icon: "unicorn.png"
     iconHeight: 35
 
 outputs:
