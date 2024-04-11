@@ -5,12 +5,6 @@ tags:
 categories: logseq
 date: 2022-04-08
 lastMod: 2022-04-21
-showtoc: true
-tocopen: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowCodeCopyButtons: true
 ---
 
 from @Jeddychan in Logseq's discord #.v-border-children

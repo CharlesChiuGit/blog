@@ -5,12 +5,6 @@ tags:
 categories: logseq
 date: 2022-04-08
 lastMod: 2022-04-12
-showtoc: true
-tocopen: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowCodeCopyButtons: true
 ---
 
 Render a custom progress bar in Logseq, define a macro in `config.edn`:

@@ -1,17 +1,18 @@
 baseURL: https://blog.charliie.dev
 languageCode: en-us
-title: Charles Chiu
-theme: "PaperMod"
+title: "Charles Chiu"
+theme: PaperMod
 paginate: 3
 author:
   name: "Charles Chiu"
   url: "https://github.com/CharlesChiuGit"
   avatar: "charliie_unicorn.png"
 
+enableRobotsTXT: true
+googleAnalytics: "G-0YYDW2B6FM"
+
 params:
   env: production
-  analytics:
-    google.SiteVerificationTag: "G-0YYDW2B6FM"
   sitemap:
     changefreq: hourly
     filename: sitemap.xml
@@ -48,7 +49,7 @@ params:
       url: "mailto:mail@charliie.dev"
     - name: "rss"
       url: "https://blog.charliie.dev/index.xml"
-  ShowReadingTime: true
+
   author: "Charles Chiu"
   contact: "mail@charliie.dev"
   feedlinks: true
@@ -57,10 +58,34 @@ params:
   mobileMenu: true
   canonifyURLs: true
   favicon: "favicon.ico"
-  icon: "unicorn.ico"
+  icon: "favicon.ico"
   image: "unicorn.ico"
   busuanzi:
     enable: true
+
+  # PaperMod page config
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  disableScrollToTop: false
+  showtoc: true
+  tocopen: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "favicon.ico"
+    favicon16x16: "favicon.ico"
+    favicon32x32: "favicon.ico"
+    apple_touch_icon: "favicon.ico"
+    safari_pinned_tab: "favicon.ico"
+
+  label:
+    text: "Home"
+    icon: "charliie_unicorn.png"
+    iconHeight: 35
 
 outputs:
   home:
@@ -90,3 +115,14 @@ menu:
       name: Archive
       url: /archives/
       weight: 20
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    # noClasses: false
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    # lineNos: true
+    style: monokai
