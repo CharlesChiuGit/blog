@@ -7,6 +7,12 @@ tags:
 categories: logseq
 date: 2022-04-08
 lastMod: 2022-04-25
+showtoc: true
+tocopen: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowCodeCopyButtons: true
 ---
 
 Illustration of Logseq's implemented task states:
