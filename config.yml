@@ -1,11 +1,7 @@
 baseURL: https://blog.charliie.dev
 languageCode: en-us
 title: "Charles Chiu"
-theme: "github.com/ejsdotsh/yacht-hugo-theme"
-module:
-  imports:
-    path: "github.com/ejsdotsh/yacht-hugo-theme"
-    disable: false
+theme: PaperMod
 paginate: 3
 author:
   name: "Charles Chiu"
