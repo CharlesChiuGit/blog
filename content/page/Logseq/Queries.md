@@ -1,5 +1,5 @@
 ---
-title: \[Logseq\] Queries
+title: Logseq | Queries
 tags:
   - logseq
 categories: logseq

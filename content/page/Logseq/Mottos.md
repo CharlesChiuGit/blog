@@ -1,5 +1,5 @@
 ---
-title: \[Logseq\] Mottos
+title: Logseq | Mottos
 tags:
   - logseq
 categories: logseq

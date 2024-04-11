@@ -1,5 +1,5 @@
 ---
-title: \[Logseq\] Tips
+title: Logseq | Tips
 tags:
   - logseq
 categories: logseq

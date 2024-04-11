@@ -1,5 +1,5 @@
 ---
-title: \[Void-Linux\] Personal Pitfalls
+title: Void-Linux | Personal Pitfalls
 tags:
   - void
   - devlog
