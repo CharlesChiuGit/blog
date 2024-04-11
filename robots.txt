@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://blog.charliie.dev/sitemap.xml
