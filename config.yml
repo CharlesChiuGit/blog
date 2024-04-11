@@ -10,7 +10,7 @@ author:
 
 params:
   env: production
-  googleAnalytics: "G-0V9B3X3CHE"
+  googleAnalytics: "G-0YYDW2B6FM"
   sitemap:
     changefreq: hourly
     filename: sitemap.xml
