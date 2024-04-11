@@ -120,7 +120,7 @@ menu:
 pygmentsUseClasses: true
 markup:
   highlight:
-    # noClasses: false
+    noClasses: false
     # anchorLineNos: true
     codeFences: true
     guessSyntax: true
