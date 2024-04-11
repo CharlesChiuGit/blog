@@ -10,7 +10,8 @@ author:
 
 params:
   env: production
-  googleAnalytics: "G-0YYDW2B6FM"
+  analytics:
+    google.SiteVerificationTag: "G-0YYDW2B6FM"
   sitemap:
     changefreq: hourly
     filename: sitemap.xml
