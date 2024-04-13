@@ -6,6 +6,8 @@ tags:
 categories: linux
 date: 2022-12-03
 lastMod: 2022-12-04
+cover:
+  image: https://img.charliie.dev/void.png
 ---
 
 # Misc
