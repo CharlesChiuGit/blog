@@ -11,6 +11,10 @@ author:
 enableRobotsTXT: true
 googleAnalytics: "G-0YYDW2B6FM"
 
+minify:
+  disableXML: true
+  minifyOutput: true
+
 params:
   env: production
   sitemap:
@@ -53,8 +57,6 @@ params:
   author: "Charles Chiu"
   contact: "mail@charliie.dev"
   feedlinks: true
-  footer: "Powered by [Hugo](https://gohugo.io/) and the [Logseq](https://logseq.com/)."
-  copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   mobileMenu: true
   canonifyURLs: true
   favicon: "favicon.ico"
