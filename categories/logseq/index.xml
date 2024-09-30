@@ -1,18 +1,124 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Logseq on Blog</title><link>https://blog.charliie.dev/categories/logseq/</link><description>Recent content in Logseq on Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.charliie.dev/categories/logseq/index.xml" rel="self" type="application/rss+xml"/><item><title>Logseq | CSS_Theme</title><link>https://blog.charliie.dev/page/logseq/css_theme/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://blog.charliie.dev/page/logseq/css_theme/</guid><description>Progress par style in custom.css:
-GitHub Link /* Progress bar */ progress { vertical-align: middle; border-radius: 8px; height: 0.6em; width: 100px; border: 1px solid #000; overflow: hidden; } progress::-webkit-progress-bar { background: var(--ls-tertiary-background-color); } progress::-webkit-progress-value { background: var(--ct-success-color); } id:: 622dec42-eb38-4427-b068-e7b786a82f4f Custom CSS to move arrows to left - more close to any web-browser layout
-/*** Toobar icons ***/ /* shrink left toolbar */ .cp__header &amp;gt; .l { width: auto; } /* move all icons to left*/ .</description></item><item><title>Logseq | EDN_Settings</title><link>https://blog.charliie.dev/page/logseq/edn_settings/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://blog.charliie.dev/page/logseq/edn_settings/</guid><description>Render a custom progress bar in Logseq, define a macro in config.edn:
-{&amp;#34;progress&amp;#34; &amp;#34;[:span [:progress {:value $1 :max $2 :style {:width 200 :margin-right 4}}] [:small \&amp;#34;$1/$2\&amp;#34;]]&amp;#34;} For example Write {{progress 47,195}}.
-Twitter Link
-the style of the process bar in css:
-Progress par style in custom.css: Make != looks like ≠:
-Discord Link :commands [ [“!=“ “≠”] ] A funny experiment to turn blocks / children-blocks into resizable blocks that behave like flex-boxes</description></item><item><title>Logseq | Mottos</title><link>https://blog.charliie.dev/page/logseq/mottos/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://blog.charliie.dev/page/logseq/mottos/</guid><description>但這兩種結果其實歸結到一個共通的問題上：**「我有沒有決定自己的閱讀目標是什麼？我的這個閱讀目標想要創造什麼實現？」**在我的經驗裡，只要能確認這個核心問題，那麼資訊大爆炸與閱讀視野都不會是問題。 #mottos
-{{youtube-timestamp 224}} mottos about tools #mottos
-Logseq mottos #mottos #logseq_tip #.v-border-children</description></item><item><title>Logseq | Queries</title><link>https://blog.charliie.dev/page/logseq/queries/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://blog.charliie.dev/page/logseq/queries/</guid><description>from @Jeddychan in Logseq&amp;rsquo;s discord #.v-border-children
-Terms / Names -
-Datalog &amp;mdash;&amp;mdash; a query language used for databases Datascript &amp;mdash; a flavor of Datalog written in Clojure. Logseq currently uses Datascript. Datomic &amp;mdash;&amp;ndash; a different flavor of Datalog written in Clojure. (Some tutorials for Datomic may be helpful, but ymmv) Hiccup &amp;mdash;&amp;mdash;- a language used to generate HTML, you can use it in an advanced query&amp;rsquo;s custom view ( :view )</description></item><item><title>Logseq | Tips</title><link>https://blog.charliie.dev/page/logseq/tips/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://blog.charliie.dev/page/logseq/tips/</guid><description>Illustration of Logseq&amp;rsquo;s implemented task states:
-Discoed Link Vault survival kit
-Discord Link Save a current safari selection to Logseq as a quote and link
-Discord Link
-iCloud shortcut
-While querying a page that uses namespace, replace the slash with underscore. So if the page name is projects/2022, in advanced query it should be &amp;ldquo;projects_2022&amp;rdquo;
-A new shortcut using @sawhneys shortcut as reference to add dictated text as a note to logseq (today) with a tag #voicenote</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Logseq on Blog</title><link>https://blog.charliie.dev/categories/logseq/</link><description>Recent content in Logseq on Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.charliie.dev/categories/logseq/index.xml" rel="self" type="application/rss+xml"/><item><title>Logseq | CSS_Theme</title><link>https://blog.charliie.dev/page/logseq/css_theme/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://blog.charliie.dev/page/logseq/css_theme/</guid><description>&lt;p>Progress par style in &lt;code>custom.css&lt;/code>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/pengx17/logseq-dev-theme/blob/5feb39e5ec8e430a293ffe78736612c666a9806c/custom.css#L823-L838">GitHub Link&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="c">/* Progress bar */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">progress&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">vertical-align&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">middle&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">border-radius&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">8&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">height&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mf">0.6&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">width&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">border&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="kc">solid&lt;/span> &lt;span class="mh">#000&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">overflow&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">hidden&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">progress&lt;/span>&lt;span class="p">::&lt;/span>&lt;span class="nd">-webkit-progress-bar&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">ls&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">tertiary&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">background&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="kc">color&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">progress&lt;/span>&lt;span class="p">::&lt;/span>&lt;span class="nd">-webkit-progress-value&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">ct&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">success&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="kc">color&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>id:: 622dec42-eb38-4427-b068-e7b786a82f4f&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Custom CSS to move arrows to left - more close to any web-browser layout&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="c">/***
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c"> Toobar icons
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">***/&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">/* shrink left toolbar */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">cp__header&lt;/span> &lt;span class="o">&amp;gt;&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nc">l&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">width&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">auto&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">/* move all icons to left*/&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">cp__header&lt;/span> &lt;span class="o">&amp;gt;&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nc">r&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">justify-content&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">flex-start&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">/* hide home button (i don&amp;#39;t use it at all) */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">not&lt;/span>&lt;span class="o">([&lt;/span>&lt;span class="nt">data-page&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;home&amp;#34;&lt;/span>&lt;span class="o">])&lt;/span> &lt;span class="p">.&lt;/span>&lt;span class="nc">r&lt;/span> &lt;span class="o">&amp;gt;&lt;/span> &lt;span class="nt">div&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">nth-child&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nt">2&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">display&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">none&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">/* add gap before plugin icons + reorder */&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">ui-items-container&lt;/span>&lt;span class="o">[&lt;/span>&lt;span class="nt">data-type&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;toolbar&amp;#34;&lt;/span>&lt;span class="o">]&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">margin-left&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">auto&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">order&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">ui__dropdown-trigger&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">order&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">r&lt;/span> &lt;span class="o">&amp;gt;&lt;/span> &lt;span class="nt">div&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="nd">last-child&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">display&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">flex&lt;/span> &lt;span class="cp">!important&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">order&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;p>Coloring for tasks according this diagram by @danzu&lt;/p></description></item><item><title>Logseq | EDN_Settings</title><link>https://blog.charliie.dev/page/logseq/edn_settings/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://blog.charliie.dev/page/logseq/edn_settings/</guid><description>&lt;p>Render a custom progress bar in Logseq, define a macro in &lt;code>config.edn&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-edn" data-lang="edn">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>&lt;span class="s">&amp;#34;progress&amp;#34;&lt;/span> &lt;span class="s">&amp;#34;[:span
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> [:progress {:value $1 :max $2
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> :style {:width 200
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> :margin-right 4}}]
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> [:small \&amp;#34;$1/$2\&amp;#34;]]&amp;#34;&lt;/span>&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>For example Write &lt;code>{{progress 47,195}}&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://twitter.com/pengx17/status/1502293155974025218">Twitter Link&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>the style of the process bar in css:&lt;/p>
+&lt;ul>
+&lt;li>Progress par style in &lt;code>custom.css&lt;/code>:&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Make &lt;code>!=&lt;/code> looks like &lt;code>≠&lt;/code>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://discord.com/channels/725182569297215569/752845138148982877/951915033884000266">Discord Link&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-edn" data-lang="edn">&lt;span class="line">&lt;span class="cl">&lt;span class="ss">:commands&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="err">“&lt;/span>&lt;span class="nv">!=&lt;/span>&lt;span class="err">“&lt;/span> &lt;span class="err">“≠”&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;p>A funny experiment to turn blocks / children-blocks into resizable blocks that behave like flex-boxes&lt;/p></description></item><item><title>Logseq | Mottos</title><link>https://blog.charliie.dev/page/logseq/mottos/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://blog.charliie.dev/page/logseq/mottos/</guid><description>&lt;p>但這兩種結果其實歸結到一個共通的問題上：**「我有沒有決定自己的閱讀目標是什麼？我的這個閱讀目標想要創造什麼實現？」**在我的經驗裡，只要能確認這個核心問題，那麼資訊大爆炸與閱讀視野都不會是問題。 #mottos&lt;/p>
+&lt;p>{{youtube-timestamp 224}} &lt;!-- raw HTML omitted -->mottos about tools&lt;!-- raw HTML omitted --> #mottos&lt;/p>
+&lt;p>Logseq mottos #mottos #logseq_tip #.v-border-children&lt;/p></description></item><item><title>Logseq | Queries</title><link>https://blog.charliie.dev/page/logseq/queries/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://blog.charliie.dev/page/logseq/queries/</guid><description>&lt;p>from @Jeddychan in Logseq&amp;rsquo;s discord #.v-border-children&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Terms / Names -&lt;br>
+Datalog &amp;mdash;&amp;mdash; a query language used for databases
+Datascript &amp;mdash; a flavor of Datalog written in Clojure. Logseq currently uses Datascript.
+Datomic &amp;mdash;&amp;ndash; a different flavor of Datalog written in Clojure. (Some tutorials for Datomic may be helpful, but ymmv)
+Hiccup &amp;mdash;&amp;mdash;- a language used to generate HTML, you can use it in an advanced query&amp;rsquo;s custom view ( :view )&lt;/p></description></item><item><title>Logseq | Tips</title><link>https://blog.charliie.dev/page/logseq/tips/</link><pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate><guid>https://blog.charliie.dev/page/logseq/tips/</guid><description>&lt;p>Illustration of Logseq&amp;rsquo;s implemented task states:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://discord.com/channels/725182569297215569/725182570131751005/952564162792402976">Discoed Link&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img loading="lazy" src="https://raw.githubusercontent.com/charleschiu2012/image-hosting/main/img/Logseq_implemented_task_states.png" alt="logseq_implemented_task_states" />
+&lt;/p>
+&lt;hr>
+&lt;p>Vault survival kit&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://discord.com/channels/725182569297215569/756886540038438992/952605818791030866">Discord Link&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img loading="lazy" src="https://raw.githubusercontent.com/charleschiu2012/image-hosting/main/img/PKM_Vault_survival_kit.png" alt="pkm_vault_survival_kit" />
+&lt;/p>
+&lt;hr>
+&lt;p>Save a current safari selection to Logseq as a quote and link&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://discord.com/channels/725182569297215569/924907384730689566/955548362139119706">Discord Link&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.icloud.com/shortcuts/a5fb574078e2494da34fd4c468d9c1ef">iCloud shortcut&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>While querying a page that uses namespace, replace the slash with underscore. So if the page name is projects/2022, in advanced query it should be &amp;ldquo;projects_2022&amp;rdquo;&lt;/p>
+&lt;hr>
+&lt;p>A new shortcut using @sawhneys shortcut as reference to add dictated text as a note to logseq (today) with a tag #voicenote&lt;/p></description></item></channel></rss>
