@@ -41,6 +41,8 @@ params:
       url: "https://github.com/CharlesChiuGit"
     # - name: "youtube"
     #   url: "https://www.youtube.com/channel/UCn1_M9mn14YZvBVgChbsYlA"
+    - name: "mastodon"
+      url: <a rel="me" href="https://mstdn.social/@charliie">Mastodon</a>
     - name: "twitter"
       url: "https://twitter.com/charliie_dev"
     # - name: "medium"
