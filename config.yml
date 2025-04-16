@@ -2,7 +2,8 @@ baseURL: https://blog.charliie.dev
 languageCode: en-us
 title: "Blog"
 theme: PaperMod
-paginate: 3
+pagination:
+  pagerSize: 3
 author:
   name: "Charles Chiu"
   url: "https://github.com/CharlesChiuGit"
