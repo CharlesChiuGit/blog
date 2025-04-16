@@ -43,7 +43,7 @@ params:
     # - name: "youtube"
     #   url: "https://www.youtube.com/channel/UCn1_M9mn14YZvBVgChbsYlA"
     - name: "mastodon"
-      url: <a rel="me" href="https://mstdn.social/@charliie">Mastodon</a>
+      url: "https://mstdn.social/@charliie"
     - name: "twitter"
       url: "https://twitter.com/charliie_dev"
     # - name: "medium"
