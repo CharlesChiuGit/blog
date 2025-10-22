@@ -6,7 +6,7 @@ pagination:
   pagerSize: 3
 author:
   name: "Charles Chiu"
-  url: "https://github.com/CharlesChiuGit"
+  url: "https://github.com/charliie-dev"
   avatar: "unicorn72x72.png"
 
 enableRobotsTXT: true
@@ -39,7 +39,7 @@ params:
 
   socialIcons: # optional
     - name: "github"
-      url: "https://github.com/CharlesChiuGit"
+      url: "https://github.com/charliie-dev"
     # - name: "youtube"
     #   url: "https://www.youtube.com/channel/UCn1_M9mn14YZvBVgChbsYlA"
     - name: "mastodon"
